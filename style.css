@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Font";
+  src: url("/static/WorkSans-Italic-VariableFont_wght.ttf") format("truetype"),
+    url("/static/WorkSans-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  background-color: #f9eeff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Work Sans";
+}
+
+aside {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-title-component {
+  display: flex;
+  font-size: 3rem;
+  font-weight: bold;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+}
+
+.card-questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  color: #7b697e;
+  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+hr {
+  width: 100%;
+  margin: 0;
+  border: 1px solid #fafafa;
+}
